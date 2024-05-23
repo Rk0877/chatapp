@@ -21,6 +21,6 @@ This is a real-time chat application built using the MERN stack (MongoDB, Expres
 ### Clone the Repository
 
 ```sh
-git clone https://github.com/yourusername/chatapp.git
+git clone https://github.com/Rk0877/chatapp.git
 cd chatapp
 
