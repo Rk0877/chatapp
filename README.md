@@ -18,11 +18,28 @@ This is a real-time chat application built using the MERN stack (MongoDB, Expres
 
 ## Getting Started
 
-### Clone the Repository
+### Clone the Repository and run instruction
 
 ```sh
 git clone https://github.com/Rk0877/chatapp.git
 cd chatapp
+
+npm install
+
+Create a .env file in the root directory and add the following variables:
+
+PORT=5000
+MONGODB_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+LLM_API_KEY=your_language_model_api_key (if applicable)
+
+
+Ensure MongoDB is running. If installed locally, you can start it with:
+mongod
+
+
+node server.js
+
 
 
 
